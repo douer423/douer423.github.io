@@ -2,8 +2,8 @@
 title: How to check your Linux version
 author: frank
 date: 2022-09-24 23:32:00 +0800
-categories: [Linux,Tutorial]
-tags: [liunx fundamental]     
+categories: [Operating System,CentOS]
+tags: [liunx fundamentals]     
 render_with_liquid: false
 ---
 
@@ -34,7 +34,7 @@ If you’re looking for details about your Linux version, there are two words wh
 ```shell
 cat /etc/*release
 ```
-## 2.2 Linux kernel version number
+### 2.2 Linux kernel version number
 If you’d like to know which version of the Linux kernel you’re using, type the following command into the terminal and press enter:
 ```shell
 uname -r

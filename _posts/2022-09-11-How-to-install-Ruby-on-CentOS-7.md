@@ -1,9 +1,9 @@
 ---
-title: How to intall Ruby on CentOS7
+title: How to intall Ruby on CentOS 7
 author: frank
 date: 2022-09-11 11:51:00 +0800
-categories: [Ruby,Tutorial]
-tags: [installation]     # TAG names should always be lowercase
+categories: [Operating System,CentOS]
+tags: [installation,linux practices]     # TAG names should always be lowercase
 render_with_liquid: false
 ---
 
@@ -11,7 +11,11 @@ Ruby is a dynamic, object-oriented programming language focused on simplicity an
 
 ## 1.Installing Requirements
 
-First of all, you need to install all required packages for RVM installation on our system using the following command.
+Before you begin with this guide, there are a few steps that need to be completed first.
+
+You will need a CentOS 7 server installed. If you haven't done this yet, you can install CentOS7 according my installation [article](https://douer423.github.io/posts/How-to-create-CentOS7-in-VMWare-WorkStation/).
+
+Then, you need to install all required packages for RVM installation on our system using the following command.
 
 ```shell
 yum install gcc g++ make -y

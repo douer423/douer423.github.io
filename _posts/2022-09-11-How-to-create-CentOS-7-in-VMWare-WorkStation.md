@@ -1,9 +1,9 @@
 ---
-title: How to create CentOS7 server in VMWARE Workstation
+title: How to create CentOS 7 server in VMWARE Workstation
 author: frank
 date: 2022-09-11 15:11:00 +0800
-categories: [vmware,Tutorial]
-tags: [installation]     
+categories: [Operating System,CentOS]
+tags: [installation,linux practices]     
 render_with_liquid: false
 ---
 

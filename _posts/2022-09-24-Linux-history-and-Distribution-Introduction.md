@@ -2,8 +2,8 @@
 title: Linux history and Distribution Introduction
 author: frank
 date: 2022-09-24 23:32:00 +0800
-categories: [Linux,Tutorial]
-tags: [liunx fundamental]     
+categories: [Operating System,CentOS]
+tags: [liunx fundamentals]     
 render_with_liquid: false
 ---
 
