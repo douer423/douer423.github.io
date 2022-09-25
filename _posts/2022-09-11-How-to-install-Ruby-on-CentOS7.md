@@ -1,5 +1,5 @@
 ---
-title: intall Ruby on CentOS7
+title: How to intall Ruby on CentOS7
 author: frank
 date: 2022-09-11 11:51:00 +0800
 categories: [Ruby,Tutorial]
@@ -9,14 +9,14 @@ render_with_liquid: false
 
 Ruby is a dynamic, object-oriented programming language focused on simplicity and productivity. `RVM` (Ruby Version Manager) is a tool for installing and managing multiple Ruby versions on single operating systems. This tutorial will help you to install RVM on your system. After that install the latest Ruby on CentOS and RedHat systems using RVM.
 
-## Installing Requirements
+## 1.Installing Requirements
 
 First of all, you need to install all required packages for RVM installation on our system using the following command.
 
 ```shell
 yum install gcc g++ make -y
 ```
-## Install RVM
+## 2.Install RVM
 Now, install the latest stable version of RVM on your system using the following command. This command will automatically download all required files and install on your system.
 ```shell
 cd /usr/local/src/
@@ -33,12 +33,12 @@ Using following command you can check the current rvm is used.
 ```shell
 rvm -v
 ```
-## Verify Dependencies
+## 3.Verify Dependencies
 Use the following command to verify all dependencies are properly installed. This will install any missing dependencies on your system.
 ```shell 
 rvm requirements
 ```
-## Install Ruby on CentOS
+## 4.Install Ruby on CentOS
 Now, your system is ready for the Ruby installation. You can find the available Ruby version for installation using below command or find the newest version from [Ruby](https://www.ruby-lang.org/en/downloads/).
 ```shell
 rvm list known
@@ -47,7 +47,7 @@ Then install the required Ruby version on your system. Here, I am installing Rub
 ```shell
 rvm install 3.1.2
 ```
-## Setup Default Ruby Version
+## 5.Setup Default Ruby Version
 First of all, check the currently installed ruby versions on your system. So that we can find which version is using currently by the system and which is set to default.
 ```shell
 rvm list 
@@ -57,7 +57,7 @@ After that use rvm command to set up the default ruby version to be used by appl
 rvm use 3.1.2 --default
 ```
 
-## Verify Active Ruby Version
+## 6.Verify Active Ruby Version
 
 Using following command you can check the current ruby and rubygems version is used.
 ```shell
