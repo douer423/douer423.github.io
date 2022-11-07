@@ -2,7 +2,7 @@
 title: How to install python3 on CentOS 7
 author: frank
 date: 2022-10-23 15:50:00 +0800
-categories: [Tools,Python]
+categories: [Programming,Python]
 tags: [installation,linux practices]     
 render_with_liquid: false
 ---
