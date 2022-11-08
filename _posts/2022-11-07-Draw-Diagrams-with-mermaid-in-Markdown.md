@@ -58,6 +58,6 @@ Now with Mermaid library in much wider use, we have started to work towards more
 To begin with, we have added a new feature to Mermaid library, which is to support accessibility options, Accessibility Title and Accessibility Description.
 
 ## 5. Userful Links
-https://mermaid-js.github.io/mermaid/#/README   
+[mermaid](https://mermaid-js.github.io/mermaid/#/README)   
 https://support.typora.io/Draw-Diagrams-With-Markdown/
 https://www.redgregory.com/notion/2022/1/17/how-to-get-started-with-mermaid-in-notion
