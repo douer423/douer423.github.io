@@ -50,12 +50,12 @@ We can set SQL Editor Formatting for a single connection. However, it's better t
 
 Select the **Window** menu and then the **Preferences** submenu. In the **Preferences** window opened, select **Editors** => **SQL Editor** => **Formatting**. For the formatting, it's recommended to set the configurations as follows:
 
-![DBeaver SQL Editor Formatiing](https://cdn/jsdelivr.net/gh/douer423/blog_images@main/202211242305620.png)
+![DBeaver SQL Editor Formatiing](https://cdn.jsdelivr.net/gh/douer423/blog_images@main/202211242305620.png)
 With these settings, your SQL queries will be formatted accordingly if you select your SQL queries and press **CTRL + SHIFT + F** to automatically format them.
 
 ### 3.3 Enable keyword auto case conversion
 Another handy feature I enjoy a lot is keyword auto case conversion, namely after a SQL keyword is typed, it will be automatically converted to the corresponding case, which is the upper case as set in the above step. To enable keyword auto case conversion, select **Editors** => **SQL Editor** => **Code Editor** in the **Preferences** window opened above, then enable **Convert keyword case**. You can also enable other code conversions that you like:
-![keyword auto case convert](https://github.com/douer423/Frank-images/blob/main/mysql/DBeaver-setting-2.png)
+![keyword auto case convert](https://cdn.jsdelivr.net/gh/douer423/blog_images@main/202211242337194.png)
 
 ### 3.4 Write and execute SQL queries in DBeaver
 You can right-click on your database connection on the left navigation bar, then select **SQL Editor** => **New SQL script**. A new SQL script editor will be opened for you. Now you can start to enjoy writing SQL queries in DBeaver, especially keyword auto case conversion and code auto-completion :)
