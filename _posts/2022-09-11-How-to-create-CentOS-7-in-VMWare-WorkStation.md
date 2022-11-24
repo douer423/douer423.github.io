@@ -10,7 +10,7 @@ render_with_liquid: false
 Step-by-step guidance of installing CentOS on VMware
 ## 1. Requirements
 1. Vmware Workstation Pro 12
-2. CentOS 7.8.2003 [mirror download](http://mirrors.aliyun.com/centos/7.8.2003/isos/x86_64/)
+2. CentOS 7.8.2003 [mirror download](https://mirrors.aliyun.com/centos/){:target="_blank"}
 
 ## 2.Vmware Creation
 
@@ -22,7 +22,7 @@ Step-by-step guidance of installing CentOS on VMware
 6. Name the Server and choose location,Click **Next**
 7. Configure process and CPU cores,Click **Next**
 8. Configure memory
-9. Network configure [Configuring Virtual Network Adapter Settings](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/16.0/com.vmware.player.win.using.doc/GUID-C82DCB68-2EFA-460A-A765-37225883337D.html)
+9. Network configure [Configuring Virtual Network Adapter Settings](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/16.0/com.vmware.player.win.using.doc/GUID-C82DCB68-2EFA-460A-A765-37225883337D.html){:target="_blank"}
 10. I/O controller configure,choose **LSI Logic(L)**,Click **Next**
 11. Disk Type,choose **SCSI(S)**,Click **Next**
 12. Disk Size,fill disk size,Click **Next**
@@ -41,7 +41,7 @@ Step-by-step guidance of installing CentOS on VMware
 
 
 
-For more details,you may read this [acticle](https://www.cnblogs.com/43945616b/p/13599671.html).
+For more details,you may read this [acticle](https://www.cnblogs.com/43945616b/p/13599671.html){:target="_blank"}.
 
 
 
