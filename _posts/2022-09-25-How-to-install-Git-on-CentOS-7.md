@@ -7,24 +7,24 @@ tags: [git,linux practices]
 render_with_liquid: false
 ---
 
-## 1. Introduction
+## Introduction
 Version control has become an indispensable tool in modern software development. Version control systems allow you to keep track of your software at the source level. You can track changes, revert to previous stages, and branch off from the base code to create alternative versions of files and directories.
 
 One of the most popular version control systems is [git](https://git-scm.com/). Many projects maintain their files in a Git repository, and sites like GitHub and Bitbucket have made sharing and contributing to code with Git easier than ever.
 
 In this guide, we will demonstrate how to install Git on a CentOS 7 server. We will cover how to install the software in a couple of different ways, each with their own benefits, along with how to set up Git so that you can begin collaborating right away.
 
-## 2. Prerequisites
+## Prerequisites
 Before you begin with this guide, there are a few steps that need to be completed first.
 
 You will need a CentOS 7 server installed. If you haven't done this yet, you can install CentOS7 according my installation [article](https://douer423.github.io/posts/How-to-create-CentOS7-in-VMWare-WorkStation/).
 
 Once you have your CentOS 7 server, you can use it to SSH into your CentOS server and continue with the installation of Git.
 
-## 3. Install Git
+## Install Git
 The two most common ways to install Git will be described in this section. Each option has their own advantages and disadvantages, and the choice you make will depend on your own needs. For example, users who want to maintain updates to the Git software will likely want to use yum to install Git, while users who need features presented by a specific version of Git will want to build that version from source.
 
-### 3.1 Install Git with Yum
+### Install Git with Yum
 
 The easiest way to install Git and have it ready to use is to use CentOS's default repositories. This is the fastest method, but the Git version that is installed this way may be older than the newest version available. If you need the latest release, consider compiling git from source (the steps for this method can be found further down this tutorial).
 
@@ -38,7 +38,7 @@ git --version
 ```
 If that check produced a Git version number, then you can now move on to Setting up Git, found further down this article.
 
-### 3.2 Install Git from Source
+### Install Git from Source
 If you want to download the latest release of Git available, or simply want more flexibility in the installation process, the best method for you is to compile the software from source. This takes longer, and will not be updated and maintained through the yum package manager, but it will allow you to download a newer version than what is available through the CentOS repositories, and will give you some control over the options that you can include.
 
 Before you begin, you'll need to install the software that git depends on. These dependencies are all available in the default CentOS repositories, along with the tools that we need to build a binary from source:
@@ -91,7 +91,7 @@ git --version
 ```
 If that check produced a Git version number, then you can now move on to Setting up Git below.
 
-## 4. Set Up Git
+## Set Up Git
 Now that you have git installed, you will need to submit some information about yourself so that commit messages will be generated with the correct information attached. To do this, use the git configcommand to provide the name and email address that you would like to have embedded into your commits:
 
 ```shell
